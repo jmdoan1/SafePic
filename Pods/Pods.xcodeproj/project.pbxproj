@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D75C827A40E9C563B2ED4F9C5468A5E /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7733114896BBB5A9F06999C75D9EF2BE /* SCLAlertView-dummy.m */; };
+		114982534E1C8C1705419F3E1C759402 /* Pods-SafePic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F32E0249DDE60300BF85A76A51DD86 /* Pods-SafePic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B01DF4CB9190A55A1EDC122AA6D2387 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE374538CC86BFDBAFC483BD0B0A04A7 /* SCLExtensions.swift */; };
+		2D5520864DE7EFDD0E5DC1F1A8EECCB8 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64832C0EACE76889BD8641A97357788F /* SCLAlertView.swift */; };
+		4DDE1E186F0148BDBA3C7950C10CDC23 /* Pods-SafePic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 390202CDC82E27697044648C26806920 /* Pods-SafePic-dummy.m */; };
+		5BAF832E5A2CE0FDFEC4F1865F75ED79 /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED5E2568493DF5B6ADBC3D21386188 /* PMAlertController.swift */; };
+		6A91AC0152233BBA5BBF0100DDFEF735 /* PMAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DCA60AD8F7EFFFA86AD60420AD2A277 /* PMAlertController.bundle */; };
+		7DCFE8B560F0D4D7889A1AF1539167F2 /* PMAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 601D2BF7548DCB419856A52C03AC954C /* PMAlertController.xib */; };
+		96238B96A9BB702EA5D0101816222D67 /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601D2BF7548DCB419856A52C03AC954C /* PMAlertController.xib */; };
+		A649E0E880C616DFFF16A705F3CB7ECA /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B66B51F6F445F0E691719EFF12702C /* PMAlertAction.swift */; };
+		B30D093816B083568BE2F279607C8149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		BCAFB8B5EA45680ADBD72C790494B26A /* PMAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E426258557B14BE2781A58E93D448ACC /* PMAlertController-dummy.m */; };
+		C351D3A8A7DE2E5F9BF8E2029384F66F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		C3CF620D3E589B4DD338DF30AEEF8684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		D7617BB1260F5A687CFD6672774736FA /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344BB94BD005D033178E72AA7EF851F0 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAAE08C7D6BA2FABE4AA8C1DFBA8213C /* PMAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA7404CA283E41B8B71575F560B9C5E /* PMAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6EDD3D521555ABE9176B5E85870CEE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F224C5F3E31F1B5742F7FA72DA2F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AB96F7E8DD8856CD05BD74C0ABBF9C;
+			remoteInfo = "PMAlertController-PMAlertController";
+		};
+		8452478FF7FA13ECDAC9024D5843A67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA72851798E846241312E9E0E443A1D;
+			remoteInfo = SCLAlertView;
+		};
+		AB9D2C7917DC8C534AFB94898CCD6917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5AB1C0293AFBBE30818EC1F7565FA51;
+			remoteInfo = PMAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344BB94BD005D033178E72AA7EF851F0 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		390202CDC82E27697044648C26806920 /* Pods-SafePic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafePic-dummy.m"; sourceTree = "<group>"; };
+		5CD757E59D17682482764BE4653EB145 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601D2BF7548DCB419856A52C03AC954C /* PMAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PMAlertController.xib; path = Library/PMAlertController.xib; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64832C0EACE76889BD8641A97357788F /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		6DCA60AD8F7EFFFA86AD60420AD2A277 /* PMAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMAlertController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3FE8F57BB941795C71B9F411425628 /* Pods-SafePic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafePic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70ED5E2568493DF5B6ADBC3D21386188 /* PMAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertController.swift; path = Library/PMAlertController.swift; sourceTree = "<group>"; };
+		71B66B51F6F445F0E691719EFF12702C /* PMAlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertAction.swift; path = Library/PMAlertAction.swift; sourceTree = "<group>"; };
+		758A7B76337D6C9247ADAE8624562451 /* Pods-SafePic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafePic-acknowledgements.plist"; sourceTree = "<group>"; };
+		7733114896BBB5A9F06999C75D9EF2BE /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		789DAAC6E7521EAFD51859891CA57E9A /* Pods-SafePic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafePic.release.xcconfig"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		82BF4C55A42CDA1B0A9C645DE0843173 /* Pods-SafePic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SafePic.modulemap"; sourceTree = "<group>"; };
+		82F32E0249DDE60300BF85A76A51DD86 /* Pods-SafePic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafePic-umbrella.h"; sourceTree = "<group>"; };
+		87E1241612A59A58A377024C81B87E70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6AC0526A83BE021199F917DE957742 /* Pods-SafePic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafePic-resources.sh"; sourceTree = "<group>"; };
+		9202F29EB7F5CC1B22EC60EDF7F78221 /* PMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PMAlertController.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988C2505139DCAD4D27F57552A25A71D /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		9C1136E0F5AA8170353DD79E57E05887 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BE8CA1D28D1300740E1A1014E4320C /* PMAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.xcconfig; sourceTree = "<group>"; };
+		B82AE02D72A5E9C718038F6BEC975708 /* Pods_SafePic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafePic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE374538CC86BFDBAFC483BD0B0A04A7 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		BF0BFC9C655E4375153CEE795EE480F8 /* PMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-prefix.pch"; sourceTree = "<group>"; };
+		D5B71257B54C58AD9B1B3F5B44231E0E /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		D7D12127C6D17872007F43EF055D2C41 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA7404CA283E41B8B71575F560B9C5E /* PMAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-umbrella.h"; sourceTree = "<group>"; };
+		E426258557B14BE2781A58E93D448ACC /* PMAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMAlertController-dummy.m"; sourceTree = "<group>"; };
+		F244E66FCAC456399468720F7C232FBE /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		F5C869BDCAA30CC9B57CE292B2496C0B /* Pods-SafePic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafePic.debug.xcconfig"; sourceTree = "<group>"; };
+		F76618427F6670ABCD70EE5BF12617FF /* ResourceBundle-PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PMAlertController-Info.plist"; sourceTree = "<group>"; };
+		FD9466C585C157D16216F1D1A37E7B7E /* PMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF74F66760753E3CC55038D738FE7FC7 /* Pods-SafePic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafePic-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28361A357577612BD53DA689E822496C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CF202BB478D17B2A440E5D5F3E4999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C351D3A8A7DE2E5F9BF8E2029384F66F /* Foundation.framework in Frameworks */,
+				C3CF620D3E589B4DD338DF30AEEF8684 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF4CADBC5A8545908FFE5886B5408F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30D093816B083568BE2F279607C8149 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED60BA43245B5EB56D6F4F2DDB7BBB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EDD3D521555ABE9176B5E85870CEE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C34263ECCB69A61022629156EF87D9 /* Pods-SafePic */ = {
+			isa = PBXGroup;
+			children = (
+				9C1136E0F5AA8170353DD79E57E05887 /* Info.plist */,
+				82BF4C55A42CDA1B0A9C645DE0843173 /* Pods-SafePic.modulemap */,
+				6F3FE8F57BB941795C71B9F411425628 /* Pods-SafePic-acknowledgements.markdown */,
+				758A7B76337D6C9247ADAE8624562451 /* Pods-SafePic-acknowledgements.plist */,
+				390202CDC82E27697044648C26806920 /* Pods-SafePic-dummy.m */,
+				FF74F66760753E3CC55038D738FE7FC7 /* Pods-SafePic-frameworks.sh */,
+				8D6AC0526A83BE021199F917DE957742 /* Pods-SafePic-resources.sh */,
+				82F32E0249DDE60300BF85A76A51DD86 /* Pods-SafePic-umbrella.h */,
+				F5C869BDCAA30CC9B57CE292B2496C0B /* Pods-SafePic.debug.xcconfig */,
+				789DAAC6E7521EAFD51859891CA57E9A /* Pods-SafePic.release.xcconfig */,
+			);
+			name = "Pods-SafePic";
+			path = "Target Support Files/Pods-SafePic";
+			sourceTree = "<group>";
+		};
+		2224B54B670D49D136DAE3F9D51B4326 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD757E59D17682482764BE4653EB145 /* Info.plist */,
+				9202F29EB7F5CC1B22EC60EDF7F78221 /* PMAlertController.modulemap */,
+				B1BE8CA1D28D1300740E1A1014E4320C /* PMAlertController.xcconfig */,
+				E426258557B14BE2781A58E93D448ACC /* PMAlertController-dummy.m */,
+				BF0BFC9C655E4375153CEE795EE480F8 /* PMAlertController-prefix.pch */,
+				DEA7404CA283E41B8B71575F560B9C5E /* PMAlertController-umbrella.h */,
+				F76618427F6670ABCD70EE5BF12617FF /* ResourceBundle-PMAlertController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PMAlertController";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CA1826F88703669C1A92C4F6150CA62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B91AEC08F0B1D7568AEEB2930D8E880C /* PMAlertController */,
+				A3124A038924A15952E5E93FCAFCE5E3 /* SCLAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4CA1826F88703669C1A92C4F6150CA62 /* Pods */,
+				832037CE8332E49C2EF16644070F0C26 /* Products */,
+				BF6515A28CF524FC2440DF71EE11B3DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		803F9E14216589E1174AA7FE30DFD636 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E1241612A59A58A377024C81B87E70 /* Info.plist */,
+				F244E66FCAC456399468720F7C232FBE /* SCLAlertView.modulemap */,
+				988C2505139DCAD4D27F57552A25A71D /* SCLAlertView.xcconfig */,
+				7733114896BBB5A9F06999C75D9EF2BE /* SCLAlertView-dummy.m */,
+				D5B71257B54C58AD9B1B3F5B44231E0E /* SCLAlertView-prefix.pch */,
+				344BB94BD005D033178E72AA7EF851F0 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		832037CE8332E49C2EF16644070F0C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DCA60AD8F7EFFFA86AD60420AD2A277 /* PMAlertController.bundle */,
+				FD9466C585C157D16216F1D1A37E7B7E /* PMAlertController.framework */,
+				B82AE02D72A5E9C718038F6BEC975708 /* Pods_SafePic.framework */,
+				D7D12127C6D17872007F43EF055D2C41 /* SCLAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3124A038924A15952E5E93FCAFCE5E3 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				64832C0EACE76889BD8641A97357788F /* SCLAlertView.swift */,
+				BE374538CC86BFDBAFC483BD0B0A04A7 /* SCLExtensions.swift */,
+				803F9E14216589E1174AA7FE30DFD636 /* Support Files */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		B91AEC08F0B1D7568AEEB2930D8E880C /* PMAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				71B66B51F6F445F0E691719EFF12702C /* PMAlertAction.swift */,
+				70ED5E2568493DF5B6ADBC3D21386188 /* PMAlertController.swift */,
+				601D2BF7548DCB419856A52C03AC954C /* PMAlertController.xib */,
+				D40BB36852755913883DBA096EA87938 /* Resources */,
+				2224B54B670D49D136DAE3F9D51B4326 /* Support Files */,
+			);
+			path = PMAlertController;
+			sourceTree = "<group>";
+		};
+		BF6515A28CF524FC2440DF71EE11B3DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C34263ECCB69A61022629156EF87D9 /* Pods-SafePic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D40BB36852755913883DBA096EA87938 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59827D313EDA27A9621B4D07CDD6A1C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7617BB1260F5A687CFD6672774736FA /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AC2BCA58D860164D65BAE36FE6254F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAE08C7D6BA2FABE4AA8C1DFBA8213C /* PMAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F691EA1C9F05968BB62482C28FF2D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114982534E1C8C1705419F3E1C759402 /* Pods-SafePic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BFA72851798E846241312E9E0E443A1D /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1701C26F583FDEADEAE44D7BADAA03F9 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				DC0B37B79F632AC402D1C67E1C017E99 /* Sources */,
+				ED60BA43245B5EB56D6F4F2DDB7BBB4A /* Frameworks */,
+				59827D313EDA27A9621B4D07CDD6A1C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = D7D12127C6D17872007F43EF055D2C41 /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2AB96F7E8DD8856CD05BD74C0ABBF9C /* PMAlertController-PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBC4602E476EF499DEFB4FA782F90D2 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */;
+			buildPhases = (
+				18EAC1A7DD742BB402409A51F31648B7 /* Sources */,
+				28361A357577612BD53DA689E822496C /* Frameworks */,
+				4A7CA032E4D1FCBD34E1D3EF57075A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMAlertController-PMAlertController";
+			productName = "PMAlertController-PMAlertController";
+			productReference = 6DCA60AD8F7EFFFA86AD60420AD2A277 /* PMAlertController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E22821CD17B85D2FE6D67AFAB8298910 /* Pods-SafePic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D43A100FFEDDCC74285DAD118862A4 /* Build configuration list for PBXNativeTarget "Pods-SafePic" */;
+			buildPhases = (
+				7199F2443E2D3EF51CFD93B484C6AB54 /* Sources */,
+				BCF4CADBC5A8545908FFE5886B5408F3 /* Frameworks */,
+				E4F691EA1C9F05968BB62482C28FF2D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6684A678E059429FD2B0A48AEA92ADDA /* PBXTargetDependency */,
+				02B9B392EF5FC9109653710BAA47DDF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-SafePic";
+			productName = "Pods-SafePic";
+			productReference = B82AE02D72A5E9C718038F6BEC975708 /* Pods_SafePic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5AB1C0293AFBBE30818EC1F7565FA51 /* PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097B5081FEAF3510601787F9AE764519 /* Build configuration list for PBXNativeTarget "PMAlertController" */;
+			buildPhases = (
+				8F95FF72D0EA493A408FAE3B91BC9615 /* Sources */,
+				29CF202BB478D17B2A440E5D5F3E4999 /* Frameworks */,
+				5D7F1806074A26F824FFB22EE9893C61 /* Resources */,
+				81AC2BCA58D860164D65BAE36FE6254F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342D6C46F61E3B8BDB40723C718392E0 /* PBXTargetDependency */,
+			);
+			name = PMAlertController;
+			productName = PMAlertController;
+			productReference = FD9466C585C157D16216F1D1A37E7B7E /* PMAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 832037CE8332E49C2EF16644070F0C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AB1C0293AFBBE30818EC1F7565FA51 /* PMAlertController */,
+				C2AB96F7E8DD8856CD05BD74C0ABBF9C /* PMAlertController-PMAlertController */,
+				E22821CD17B85D2FE6D67AFAB8298910 /* Pods-SafePic */,
+				BFA72851798E846241312E9E0E443A1D /* SCLAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7CA032E4D1FCBD34E1D3EF57075A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96238B96A9BB702EA5D0101816222D67 /* PMAlertController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7F1806074A26F824FFB22EE9893C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A91AC0152233BBA5BBF0100DDFEF735 /* PMAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EAC1A7DD742BB402409A51F31648B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7199F2443E2D3EF51CFD93B484C6AB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDE1E186F0148BDBA3C7950C10CDC23 /* Pods-SafePic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F95FF72D0EA493A408FAE3B91BC9615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649E0E880C616DFFF16A705F3CB7ECA /* PMAlertAction.swift in Sources */,
+				BCAFB8B5EA45680ADBD72C790494B26A /* PMAlertController-dummy.m in Sources */,
+				5BAF832E5A2CE0FDFEC4F1865F75ED79 /* PMAlertController.swift in Sources */,
+				7DCFE8B560F0D4D7889A1AF1539167F2 /* PMAlertController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0B37B79F632AC402D1C67E1C017E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D75C827A40E9C563B2ED4F9C5468A5E /* SCLAlertView-dummy.m in Sources */,
+				2D5520864DE7EFDD0E5DC1F1A8EECCB8 /* SCLAlertView.swift in Sources */,
+				2B01DF4CB9190A55A1EDC122AA6D2387 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B9B392EF5FC9109653710BAA47DDF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = BFA72851798E846241312E9E0E443A1D /* SCLAlertView */;
+			targetProxy = 8452478FF7FA13ECDAC9024D5843A67C /* PBXContainerItemProxy */;
+		};
+		342D6C46F61E3B8BDB40723C718392E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PMAlertController-PMAlertController";
+			target = C2AB96F7E8DD8856CD05BD74C0ABBF9C /* PMAlertController-PMAlertController */;
+			targetProxy = 22F224C5F3E31F1B5742F7FA72DA2F92 /* PBXContainerItemProxy */;
+		};
+		6684A678E059429FD2B0A48AEA92ADDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMAlertController;
+			target = E5AB1C0293AFBBE30818EC1F7565FA51 /* PMAlertController */;
+			targetProxy = AB9D2C7917DC8C534AFB94898CCD6917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0138284FB9751980A616E8D87F09CAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789DAAC6E7521EAFD51859891CA57E9A /* Pods-SafePic.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SafePic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafePic/Pods-SafePic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SafePic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09E80BC86ECFC627B433640EF8D8AB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BE8CA1D28D1300740E1A1014E4320C /* PMAlertController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38A7E0D12762335E5948BA195A7D7C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BE8CA1D28D1300740E1A1014E4320C /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84108BE19F5C845A3DFB314029A7C25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988C2505139DCAD4D27F57552A25A71D /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97C7B10FCB8046CA0C7FBE6848C7ADF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C869BDCAA30CC9B57CE292B2496C0B /* Pods-SafePic.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SafePic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafePic/Pods-SafePic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SafePic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D6AB230BF8AB9F5F372925F7466DE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988C2505139DCAD4D27F57552A25A71D /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9B174B7833F882C473AAE0D7FE75CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BE8CA1D28D1300740E1A1014E4320C /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C11A9E0EAA875E18EB9EDBB9104A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BE8CA1D28D1300740E1A1014E4320C /* PMAlertController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097B5081FEAF3510601787F9AE764519 /* Build configuration list for PBXNativeTarget "PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E80BC86ECFC627B433640EF8D8AB2E /* Debug */,
+				C11A9E0EAA875E18EB9EDBB9104A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1701C26F583FDEADEAE44D7BADAA03F9 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6AB230BF8AB9F5F372925F7466DE67 /* Debug */,
+				84108BE19F5C845A3DFB314029A7C25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBC4602E476EF499DEFB4FA782F90D2 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A7E0D12762335E5948BA195A7D7C26 /* Debug */,
+				A9B174B7833F882C473AAE0D7FE75CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D43A100FFEDDCC74285DAD118862A4 /* Build configuration list for PBXNativeTarget "Pods-SafePic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C7B10FCB8046CA0C7FBE6848C7ADF5 /* Debug */,
+				0138284FB9751980A616E8D87F09CAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

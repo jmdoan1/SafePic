@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PMAlertController-PMAlertController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PMAlertController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SafePic.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SCLAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BFA72851798E846241312E9E0E443A1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2AB96F7E8DD8856CD05BD74C0ABBF9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E22821CD17B85D2FE6D67AFAB8298910</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5AB1C0293AFBBE30818EC1F7565FA51</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+PODS:
+  - PMAlertController (2.1.0)
+  - SCLAlertView (0.7.0)
+
+DEPENDENCIES:
+  - PMAlertController
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  PMAlertController: 2d2c19af12edb50753d636395f9456c8cde1e858
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+
+PODFILE CHECKSUM: 6b2aa869538c02af6afc22c0c6e01ad826fb66f2
+
+COCOAPODS: 1.1.1
